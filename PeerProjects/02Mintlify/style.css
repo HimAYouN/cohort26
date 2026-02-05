@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  scrollbar-width: none;
+}
+.navBar {
+    
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  width: 100vw;
+  justify-content: space-around;
+}
+.navBar img {
+  height: 25px;
+  border-radius: 20px;
+}
+.navBar div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navBar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+.navBar button:first-child {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.274);
+  font-weight: 600;
+  /* background-color: #fff; */
+  color: #fff;
+  cursor: pointer;
+}
+.navBar button:last-child {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-weight: 600;
+  /* background-color: #fff; */
+  color: #000;
+  cursor: pointer;
+}
+
+.section1 img {
+  border-radius: 20px;
+}
+.section1 h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  max-width: 43rem;
+}
+.section1 p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  max-width: 37rem;
+}
+
+.opacityWalaDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  background-color: rgba(255, 255, 255, 0.43);
+  border-radius: 30px;
+  padding: 5px;
+}
+.opacityWalaDiv span:first-child {
+  background-color: #18e299;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+.opacityWalaDiv span:last-child {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.inputWalaDiv {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.43);
+  padding: 6px;
+  width: 25rem;
+  border-radius: 20px;
+  font-weight: 900;
+}
+.inputWalaDiv input {
+  border: none;
+  padding: 5px;
+  width: 17rem;
+  background-color: rgba(255, 255, 255, 0);
+  color: #fff;
+}
+.inputWalaDiv input:focus {
+  border: none;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.inputWalaDiv button {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+  border-radius: 15px;
+}
+.section1 {
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("https://www.mintlify.com/hero/bg-light.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
